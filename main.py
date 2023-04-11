@@ -16,7 +16,7 @@ from lastEmail import myEmails
 
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly', 'https://www.googleapis.com/auth/gmail.send' ]
-openai.api_key = "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"
+openai.api_key = ""
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 content = myEmails()
